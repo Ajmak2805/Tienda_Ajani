@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+/src/main/resources/firebase/techshop-763b3-firebase-adminsdk-t5u5l-82bfcd2b31.json
+/src/main/resources/static/audios/musica.mp3
+/src/main/resources/static/videos/torpedo.mp4

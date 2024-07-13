@@ -1,26 +1,71 @@
-#contenedorTitulo{
+#encabezado{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    background-color: #496D8D;
+    color: white;
+}
+
+
+#menu{
+    position: absolute;
+    top: 8%;
+    left: 0;
+    height:4%;
+    width: 100%;
+    background-color: cadetblue;
+    color: black;
+
+}
+#menu a:visited{
+    color: navy;
+}
+menu a:hover{
+    background-color: green;
+    color: white;
+}
+#barraLateral{
+    position: absolute;
+    top: 12%;
+    left: 0;
+    height:81%;
+    width: 20%;
+    background-color: #8e27f6;
+    color: black;
+}
+#contenido{
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    height:81%;
+    width: 80%;
+    background-color: gainsboro;
+    color: black;
+    overflow: auto;
+}
+#piePagina{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height:7%;
+    width: 100%;
+    background-color: red;
+    color: black;
     text-align: center;
-    color: red;
 }
-.parrafoSecundario{
-    font-size: 22px;
-    color: maroon;
+#encabezadoTabla{
+    font-size: 20px;
+    color: white;
+    background-color: cadetblue;
 }
-
-.notaImportante{
-    color: red;
-}
-h1,h2, h3{
-    color: aqua;
-}
-h1{
-    font-size: 2.5em;
-}
-
-h2{
+#tablaResumen tr {
     font-size: 25px;
 }
-
-h3{
-    font-size: 1em;
+#tablaResumen tr:nth-child(odd){
+    background-color:gold;
+}
+#tablaResumen tr:nth-child(even){
+background-color: coral;
 }
