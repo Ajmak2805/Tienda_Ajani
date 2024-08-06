@@ -65,6 +65,7 @@ public class RegistroServiceImpl implements RegistroService {
                             "usuarios", 
                             usuario.getIdUsuario()));
         }
+        usuario.setActivo(true);
         usuarioService.save(usuario, true);
     }
 
