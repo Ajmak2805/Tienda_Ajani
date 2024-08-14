@@ -20,4 +20,15 @@ function addCard(formulario) {
     url = url + '/' + valor;
     $("#resultsBlock").load(url);
 }
+$(document).ready(function () {
+    if($("#resultsBlock").length > 0){
+        cargarLista();
+    }    
+});
+
+function cargarLista(){
+    var url = '/refrescarBoton';
+    $("#resultsBlock").load(url);
+}
+
 
